@@ -1,0 +1,17 @@
+@mixin spin($gap, $len, $size, $offset) {
+  @for $i from 1 through $len {
+    &:nth-child(#{$i}) {
+      $cursor: $i - 1;
+      $angle: $cursor * $gap - $offset;
+      $x: cos($angle) * $size / 2;
+      $y: sin($angle) * $size / 2;
+      transform: translate3d($x, $y, 0);
+    }
+  }
+}
+
+@mixin circle($size: 100px, $color: black) {
+  width: $size; height: $size;
+  background: $color;
+  border-radius: $size;
+}
