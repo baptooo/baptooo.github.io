@@ -14,6 +14,7 @@
     "postinstall": "gitbook install",
     "start": "gitbook serve ./src",
     "build": "gitbook build ./src",
-    "prepush": "yarn run build"
+    "version": "yarn run build && git add -A src/_book",
+    "postversion": "git push && git push --tags"
   }
 }
