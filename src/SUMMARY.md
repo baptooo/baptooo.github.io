@@ -1,0 +1,9 @@
+- [Skills](SKILLS.md)
+    - [HTML](SKILLS.md#html)
+    - [CSS](SKILLS.md#css)
+    - [JS](SKILLS.md#js)
+    - [OPS](SKILLS.md#ops)
+- [Hire me](HIRE.md)
+- Follow me
+    - [Twitter](https://twitter.com/baptooo)
+    - [Github](https://github.com/baptooo)
